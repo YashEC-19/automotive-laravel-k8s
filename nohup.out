@@ -1,2 +1,9 @@
 Forwarding from 0.0.0.0:30080 -> 80
 Handling connection for 30080
+Handling connection for 30080
+Handling connection for 30080
+Unable to listen on port 30080: Listeners failed to create with the following errors: [unable to create listener: Error listen tcp4 0.0.0.0:30080: bind: address already in use]
+error: unable to listen on any of the requested ports: [{30080 80}]
+Handling connection for 30080
+E0222 11:30:59.091409  119771 portforward.go:424] "Unhandled Error" err="an error occurred forwarding 30080 -> 80: error forwarding port 80 to pod 7bd5c84f1f5ee9f6a899677cd1f8cc433ed8eced1b56fb6af2ca50c4340605de, uid : Error response from daemon: No such container: 7bd5c84f1f5ee9f6a899677cd1f8cc433ed8eced1b56fb6af2ca50c4340605de"
+error: lost connection to pod
